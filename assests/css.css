@@ -1,0 +1,110 @@
+body {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 3fr 1fr 3fr 1fr;
+    grid-template-rows: 5vh 90vh;
+    grid-gap: 1px;
+    background-image: url('images/background\ \(1\).png');
+    background-size: 100%;
+} /* this is the grid basically */
+
+
+
+nav a {
+    font-size: 40px;
+    font-family: 'Coffee Extra';
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 10px;
+    text-align: right;
+} /* this is for the text */
+    
+img {
+    grid-column: 1/4;
+    grid-row: 1;
+    align-self: center;
+    margin: 2vh;
+    height: 220%;
+   /* this is the image(s) */
+}
+
+
+
+img:hover { 
+    transform: scale(1.015); 
+} /* when hovering on an image it enlarges */
+
+section {
+    grid-column: -3/4;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+} /* this is a section on the page */
+
+
+
+ul {
+    margin: 40px 0px;
+    grid-column: span 2;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* this fits all the sections in */
+}
+
+
+
+a:link {
+    color: blue;
+    background-color: transparent;
+  } /* to click on home, store etc */
+ 
+
+
+  a:hover {
+    color: black ;
+    background-color: #cfc ;
+   /* when you hover on home, store etc this color shows */ }
+
+
+
+   section p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ } /* this is the text inside the section */
+ 
+ 
+
+ .to-right {
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    left: 750px;
+    top: 80px;
+ }
+ /* section for a href */
+
+ .to-left {
+    float: left;
+    position: relative;
+    right: 650px;
+    bottom: 5px;
+ }
+ /* section for img */
+
+ a:hover {
+    color: black ;
+    background-color: #cfc ;
+   /* when you hover on home, store etc this color shows */ }
+
+.imge {
+    height: 800%;
+    float: right;
+    position: relative;
+    right: 950px;
+    top: 400px;
+}   
