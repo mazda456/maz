@@ -25,7 +25,8 @@ img {
     grid-row: 1;
     align-self: center;
     margin: 2vh;
-    height: 220%;
+    max-width: 100%;
+    height: auto;
    /* this is the image(s) */
 }
 
@@ -108,3 +109,14 @@ a:link {
     right: 950px;
     top: 400px;
 }   
+/* this is a section for one of the images */
+
+.imgee {
+     height: 200px;
+     float: right;
+     position: relative;
+     right: 670px;
+     top: 650px;
+}   
+/* this is a section for one of the images */
+
