@@ -2,8 +2,8 @@ body {
     display: grid;
     width: 100%;
     margin: auto;
-    grid-template-columns: 2fr 1fr 1fr 1.4fr 1.4fr 1fr 0.5fr 0.5fr;
-    grid-template-rows: 5vh 40vh 50vh;
+    grid-template-columns: 2fr 1fr 1.6fr 1.4fr 1.4fr 1fr 0.5fr 0.5fr;
+    grid-template-rows: 5vh 40vh 0.9fr 1fr 0.9fr 48vh;
     grid-gap: 1px;
     background-color: gray;
     background-image: linear-gradient(to right, black, gray);
@@ -13,13 +13,15 @@ body {
 
 nav a {
     font-size: 25px;
-    font-family: 'Coffee Extra';
+    font-family: "Indie Flower", sans-serif;
     text-decoration: none;
     color: whitesmoke;
     margin: 0px 10px;
     text-align: right;
     grid-row: 1;
     grid-column: 1;
+
+    /* this is for home text etc */
     
     
     
@@ -32,7 +34,7 @@ nav a {
 .text {
     font-size: 1rem;
     color:whitesmoke;
-    font-family: "Indie Flower", sans-serif;
+    font-family: 'Arial', sans-serif;
     grid-row: 2;
     grid-column: 4;
     border: 0.2em;
@@ -51,7 +53,7 @@ nav a {
 .text2 {
     font-size: 1rem;
     color:whitesmoke;
-    font-family: "Indie Flower", sans-serif;
+    font-family: 'Arial', sans-serif;
     grid-row: 2;
     grid-column: 5;
     border: 0.2em;
@@ -62,12 +64,12 @@ nav a {
     max-width: 100%;
     height: auto;
     overflow: auto;
-    
+    /* this is for 2nd part of text */
 }
 
 
 
-    /* Define the initial position and style of the link */
+    /* Defines the initial position and style of the link */
     ::-webkit-textfield-decoration-container {
         position: absolute;
         top: 10px;
@@ -106,7 +108,7 @@ ul {
 
 
 a:link {
-    color: blue;
+    color: whitesmoke;
     background-color: transparent;
   } /* to click on home, store etc */
  
@@ -114,9 +116,8 @@ a:link {
   
 
   a:hover {
-    color: black ;
-    background-color: rgb(0, 255, 157);
-    border-bottom:bisque;
+    color: gray;
+    
    /* when you hover on home, store etc this color shows */ }
 
 
@@ -148,6 +149,40 @@ a:link {
 }   
 /* this is a section for one of the images */
 
+
+.store { 
+    font-size: 20px;
+    font-family: "Indie Flower", sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 10px;
+    text-align: right;
+    grid-row: 2;
+    grid-column: 3;
+
+}
+
+.one  {
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    background: url(images/theone.png);
+    background-position: left top;
+    background-repeat: repeat;
+    
+}
+
+.one a {
+    text-decoration: none;
+    row-gap: 2px;
+}
 
 @media (max-width: 1000px) {
   /* CSS rules for screens smaller than 800px */
