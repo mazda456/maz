@@ -176,13 +176,50 @@ a:link {
     background: url(images/theone.png);
     background-position: left top;
     background-repeat: repeat;
+    grid: 100%;
     /* functions to help for the .one div*/
 }
 
 .one a {
     text-decoration: none;
     row-gap: 2px;
+    color: whitesmoke;
 } /* the a nav text for the .one div*/
+
+.one   :hover {
+    color: gray;
+    
+   /* when you hover on home, store etc this color shows */ }
+
+   .two  {
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    grid-gap: 3px;
+    grid-column: 3;
+    grid-row: 3;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    background: url(images/love-songs-cassette-mixtape-billboard-650.webp);
+    background-position: left top;
+    background-repeat: repeat;
+    grid: 100%;
+    /* functions to help for the .one div*/
+}
+
+.two a {
+    text-decoration: none;
+    row-gap: 2px;
+    color: whitesmoke;
+} /* the a nav text for the .one div*/
+
+.two   :hover {
+    color: gray;
+    
+   /* when you hover on home, store etc this color shows */ }
 
 @media (max-width: 1000px) {
   /* CSS rules for screens smaller than 800px */
