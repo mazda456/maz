@@ -323,7 +323,7 @@ a:link {
     align-self: bottom;
     position: relative;
     top: 120px;
-
+/* info for text about product */
 
 }
 
@@ -350,7 +350,7 @@ a:link {
     top: 700px;
 
 
-}
+} /* info for product */
 
 .be {
     font-size: 17px;
@@ -366,7 +366,7 @@ a:link {
     top: 600px;
     text-align: left;
     
-    
+    /* a title for info on product */
 }
 
 @media (max-width: 1000px) {
